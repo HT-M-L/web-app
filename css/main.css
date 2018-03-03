@@ -23,6 +23,10 @@ th {
 
 /* TYPE */
 
+.center {
+  text-align: center;
+}
+
 p {
   max-width: 30em;
 }
@@ -136,7 +140,7 @@ input[type=submit]:hover {
 
 .temp-img {
   box-shadow: 10px 10px 5px #e5e5e5;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .skinny {
