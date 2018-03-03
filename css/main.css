@@ -21,6 +21,11 @@ th {
   vertical-align: bottom; /* or middle, top */
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* TYPE */
 
 .center {
@@ -164,9 +169,21 @@ input[type=submit]:hover {
 }
 
 .list-box {
-  background-color: #b0ecee;
+  background-color: #efefef;
   border-radius: 8px;
   margin: 20px;
+}
+
+.btn-fin {
+  background-color: #8bc53f;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 100px;
+  text-align: right;
+}
+
+.btn-fin:hover {
+  background-color: #545b98;
 }
 
 /* CALENDAR */
