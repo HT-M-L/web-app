@@ -8,6 +8,10 @@
 
 /* MAIN */
 
+main {
+  max-width: 60em;
+}
+
 html {
   font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Slabo 27px', serif;
@@ -19,8 +23,13 @@ th {
 
 /* TYPE */
 
+p {
+  max-width: 30em;
+}
+
 h1, h2, h3, h4, h5, h6, nav, label {
   font-family: 'Slabo 27px', serif;
+  color: #545b98;
 }
 
 p, table, ul, ol, dl, input, textarea {
@@ -117,11 +126,11 @@ input[type=submit]:hover {
 }
 
 .add-photo {
-  padding: 50px;
+  padding: 75px;
 }
 
 .marg-top {
-  margin-top: 150px;
+  margin-top: 75px;
   margin-bottom: 0;
 }
 

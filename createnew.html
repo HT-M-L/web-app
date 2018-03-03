@@ -7,10 +7,11 @@ layout: default
   </div>
   <div class="unit l-2-3 m-2-3 s-1 container">
     <h2 class="marg-top">Client Info</h2>
-    <p class="milli">Let's get started, tell us about who you're working with.</p>
+    <p class="milli"><em>Let's get started,</em> tell us about who you're working with.<br>Create a new customer profile, or select an existing one.</p>
+    <input type="submit" value="Select existing">
     <form action="{{site.baseurl}}/createnew-templates">
 
-      <label for="fname">Basic Info</label>
+      <label class="marg-top" for="fname">Basic Info</label>
       <input class="milli" type="text" id="fname" name="firstname" placeholder="Client's first name...">
       <input class="milli" type="text" id="lname" name="lastname" placeholder="Client's last name...">
       <input class="milli" type="text" id="lname" name="lastname" placeholder="Client's company...">
