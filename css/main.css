@@ -8,6 +8,10 @@
 
 /* MAIN */
 
+.middle {
+  vertical-align: middle;
+}
+
 main {
   max-width: 60em;
 }
@@ -31,6 +35,14 @@ a {
 .fa {
   padding: 5px;
   vertical-align: middle;
+}
+
+.fa-purp {
+  color: #8bc53f;
+}
+
+.fa-purp:hover {
+  color: #545b98;
 }
 
 .label {
@@ -184,7 +196,7 @@ input[type=submit]:hover {
   border-radius: 100%;
   max-width: 50%;
   text-align: right;
-  margin: 0 auto;
+  padding: 10px;
 }
 
 .marg-0 {
@@ -194,8 +206,8 @@ input[type=submit]:hover {
 
 .list-box {
   background-color: #efefef;
+  padding: 10px;
   border-radius: 8px;
-  margin: 20px;
 }
 
 .btn-fin {
