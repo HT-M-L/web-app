@@ -47,6 +47,14 @@ p, table, ul, ol, dl, input, textarea {
 
 /* NAVIGATION */
 
+.hidden-mob {
+  display: none;
+}
+
+.hidden-desk {
+  padding: 20px;
+}
+
 .sidenav {
   height: 100%;
   width: 160px;
@@ -176,7 +184,7 @@ input[type=submit]:hover {
 
 .btn-fin {
   background-color: #8bc53f;
-  padding: 25px;
+  padding: 15px;
   border-radius: 8px;
   margin-bottom: 100px;
   text-align: right;
@@ -242,13 +250,21 @@ table {
   border-radius: 8px;
 }
 
-@media screen and (max-height: 450px) {
+@media only screen and (min-width: 608px) {
 
   .sidenav {
     padding-top: 15px;
   }
   .sidenav a {
     font-size: 18px;
+  }
+
+  .hidden-mob {
+    display: block;
+  }
+
+  .hidden-desk {
+    display: none;
   }
 
 }
