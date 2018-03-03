@@ -8,6 +8,10 @@
 
 /* MAIN */
 
+main {
+  max-width: 60em;
+}
+
 html {
   font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Slabo 27px', serif;
@@ -19,11 +23,16 @@ th {
 
 /* TYPE */
 
-h1, h2, h3, h4, h5, h6, nav {
-  font-family: 'Slabo 27px', serif;
+p {
+  max-width: 30em;
 }
 
-p, table, ul, ol, dl {
+h1, h2, h3, h4, h5, h6, nav, label {
+  font-family: 'Slabo 27px', serif;
+  color: #545b98;
+}
+
+p, table, ul, ol, dl, input, textarea {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -64,11 +73,70 @@ main {
   margin: 0;
   margin-left: 10px;
   margin-right: 10px;
-  color: #545b98;
+  color: #b0ecee;
 }
 
 .con-top {
   margin-top: 375px;
+}
+
+/* CREATE NEW */
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  vertical-align: center;
+}
+
+input[type=date], select, textarea {
+  width: 90%;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #8bc53f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+  vertical-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: #545b98;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.add-photo {
+  padding: 75px;
+}
+
+.marg-top {
+  margin-top: 75px;
+  margin-bottom: 0;
+}
+
+.temp-img {
+  box-shadow: 10px 10px 5px #e5e5e5;
+  margin-bottom: 10px;
 }
 
 /* CALENDAR */
