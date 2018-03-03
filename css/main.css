@@ -1,10 +1,77 @@
+---
+---
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+/* MAIN */
+
 html {
-  font-family: Merriweather, serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Slabo 27px', serif;
 }
 
 th {
   vertical-align: bottom; /* or middle, top */
 }
+
+/* TYPE */
+
+h1, h2, h3, h4, h5, h6, nav {
+  font-family: 'Slabo 27px', serif;
+}
+
+p, table, ul, ol, dl {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* NAVIGATION */
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #6f9ec3;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #b0ecee;
+}
+
+main {
+  margin-left: 170px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.contact {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #545b98;
+}
+
+.con-top {
+  margin-top: 375px;
+}
+
+/* CALENDAR */
 
 .calender, th, td {
   border: 1px solid #ccc;
@@ -58,4 +125,15 @@ table {
   border: 1px solid #6b7e54;
   color: #51603f;
   border-radius: 8px;
+}
+
+@media screen and (max-height: 450px) {
+
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+
 }
