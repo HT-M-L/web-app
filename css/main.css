@@ -134,6 +134,11 @@ input[type=submit]:hover {
   margin-bottom: 0;
 }
 
+.temp-img {
+  box-shadow: 10px 10px 5px #e5e5e5;
+  margin-bottom: 10px;
+}
+
 /* CALENDAR */
 
 .calender, th, td {
