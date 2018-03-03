@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="container">
+  <h2>Client Info</h2>
+  <form action="{{site.baseurl}}/createnew-templates">
+
+    <label for="fname">First Name</label>
+    <input class="milli" type="text" id="fname" name="firstname" placeholder="Client's name..">
+
+    <label for="lname">Last Name</label>
+    <input class="milli" type="text" id="lname" name="lastname" placeholder="Client's last name..">
+
+    <label class="milli" for="country">Country</label>
+    <select class="milli" id="country" name="country">
+      <option value="australia">Canada</option>
+      <option value="canada">Australia</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Description</label>
+    <textarea id="subject" name="subject" placeholder="Tell us about the project..." style="height:200px"></textarea>
+
+    <input type="submit" value="Next">
+
+  </form>
+</div>
