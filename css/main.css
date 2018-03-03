@@ -139,6 +139,13 @@ input[type=submit]:hover {
   margin-bottom: 10px;
 }
 
+.skinny {
+  max-width: 80%;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* CALENDAR */
 
 .calender, th, td {
