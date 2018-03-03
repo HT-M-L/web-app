@@ -28,6 +28,15 @@ a {
 
 /* TYPE */
 
+.fa {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.label {
+  font-size: 0;
+}
+
 .center {
   text-align: center;
 }
@@ -47,17 +56,22 @@ p, table, ul, ol, dl, input, textarea {
 
 /* NAVIGATION */
 
+.nav {
+  vertical-align: middle;
+}
+
 .hidden-mob {
   display: none;
 }
 
 .hidden-desk {
   padding: 20px;
+  max-width: 100px;
 }
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 100px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -65,6 +79,7 @@ p, table, ul, ol, dl, input, textarea {
   background-color: #6f9ec3;
   overflow-x: hidden;
   padding-top: 20px;
+  vertical-align: middle;
 }
 
 .sidenav a {
@@ -72,6 +87,7 @@ p, table, ul, ol, dl, input, textarea {
   text-decoration: none;
   color: #fff;
   display: block;
+  vertical-align: middle;
 }
 
 .sidenav a:hover {
@@ -79,7 +95,7 @@ p, table, ul, ol, dl, input, textarea {
 }
 
 main {
-  margin-left: 170px; /* Same as the width of the sidenav */
+  margin-left: 100px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
@@ -186,8 +202,9 @@ input[type=submit]:hover {
   background-color: #8bc53f;
   padding: 15px;
   border-radius: 8px;
-  margin-bottom: 100px;
+  margin-bottom: 160px;
   text-align: right;
+  font-size: initial;
 }
 
 .btn-fin:hover {
@@ -255,6 +272,35 @@ table {
   .sidenav {
     padding-top: 15px;
   }
+
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6f9ec3;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #b0ecee;
+  }
+
+  main {
+    margin-left: 170px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
   .sidenav a {
     font-size: 18px;
   }
@@ -265,6 +311,10 @@ table {
 
   .hidden-desk {
     display: none;
+  }
+
+  .label {
+    font-size: initial;
   }
 
 }
