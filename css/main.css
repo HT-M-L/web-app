@@ -8,13 +8,6 @@
 
 /* MAIN */
 
-<<<<<<< HEAD
-.middle {
-  vertical-align: middle;
-}
-
-=======
->>>>>>> master
 main {
   max-width: 60em;
 }
@@ -35,7 +28,6 @@ a {
 
 /* TYPE */
 
-<<<<<<< HEAD
 .fa {
   padding: 5px;
   vertical-align: middle;
@@ -57,8 +49,8 @@ a {
   text-align: center;
 }
 
-=======
->>>>>>> master
+master
+
 p {
   max-width: 30em;
 }
@@ -171,6 +163,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
+  background-color: #fff;
   padding: 20px;
 }
 
@@ -310,6 +303,16 @@ tbody td {
   border-top-color: #ccc;
 }
 
+span .point-right {
+  content: "\21FE";
+
+}
+
+span .point-left {
+  content: "\21FD";
+
+}
+
 table {
   border-collapse: collapse;
 }
@@ -340,6 +343,9 @@ table {
   border: 1px solid #6b7e54;
   color: #51603f;
   border-radius: 8px;
+
+}
+
 }
 
 @media only screen and (min-width: 608px) {
@@ -651,3 +657,4 @@ button {
   color: black;
   background-color: white;
 }
+
