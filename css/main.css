@@ -24,6 +24,7 @@ th {
 a {
   text-decoration: none;
   color: #000;
+  text-align: center;
 }
 
 /* TYPE */
@@ -341,6 +342,10 @@ table {
 
   .sidenav {
     padding-top: 15px;
+  }
+
+  a {
+    text-align: left;
   }
 
   .sidenav {
