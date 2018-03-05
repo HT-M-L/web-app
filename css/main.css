@@ -116,9 +116,12 @@ main {
   color: #b0ecee;
 }
 
-.con-top {
-  margin-top: 325px;
+.address {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
 }
+
 
 /* CREATE NEW */
 
@@ -302,16 +305,6 @@ tbody td {
   border-top-color: #ccc;
 }
 
-span .point-right {
-  content: "\21FE";
-
-}
-
-span .point-left {
-  content: "\21FD";
-
-}
-
 table {
   border-collapse: collapse;
 }
@@ -342,9 +335,6 @@ table {
   border: 1px solid #6b7e54;
   color: #51603f;
   border-radius: 8px;
-
-}
-
 }
 
 @media only screen and (min-width: 608px) {
@@ -656,4 +646,3 @@ button {
   color: black;
   background-color: white;
 }
-
