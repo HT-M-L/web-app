@@ -317,10 +317,10 @@ table {
 }
 
 .grey {
-  background-color: #ccc;
-  border: 1px solid #666;
-  color: #333;
+  background-color: #9dcae0;
+  color: white;
   border-radius: 8px;
+  padding: .25em;
 }
 
 .purple {
@@ -406,7 +406,7 @@ body {
 }
 
 .year {
-  color: white;
+  color: #6f9ec3;
   font-size: 30px;
   float: right;
   position: relative;
@@ -419,7 +419,7 @@ body {
   width: 0;
   height: 0;
   border-top: 5px solid transparent;
-  border-right: 10px solid #E8E8E8;
+  border-right: 10px solid #6f9ec3;
   border-bottom: 5px solid transparent;
   float: right;
   position: relative;
@@ -431,7 +431,7 @@ body {
   width: 0;
   height: 0;
   border-top: 5px solid transparent;
-  border-left: 10px solid #E8E8E8;
+  border-left: 10px solid #6f9ec3;
   border-bottom: 5px solid transparent;
   float: right;
   position: relative;
@@ -446,7 +446,7 @@ body {
 }
 
 .month-color {
-  color: black;
+  color: #6f9ec3;
 }
 .month-hover:hover{
   color: white !important;
@@ -472,9 +472,9 @@ body {
   color: black;
   position: relative;
   font-size: 24px;
-  left: 416px;
+  left: 400px;
   top: 90px;
-  word-spacing: 35px;
+  word-spacing: 40px;
   font-weight: 600;
 }
 
@@ -544,10 +544,6 @@ body {
   position: relative;
   top: 168px;
   left: 535px;
-}
-
-.grey {
-  color: #AAAAB1;
 }
 
 .calendar-left {
