@@ -8,6 +8,13 @@
 
 /* MAIN */
 
+<<<<<<< HEAD
+.middle {
+  vertical-align: middle;
+}
+
+=======
+>>>>>>> master
 main {
   max-width: 60em;
 }
@@ -21,8 +28,37 @@ th {
   vertical-align: bottom; /* or middle, top */
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* TYPE */
 
+<<<<<<< HEAD
+.fa {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.fa-purp {
+  color: #8bc53f;
+}
+
+.fa-purp:hover {
+  color: #545b98;
+}
+
+.label {
+  font-size: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+=======
+>>>>>>> master
 p {
   max-width: 30em;
 }
@@ -38,9 +74,22 @@ p, table, ul, ol, dl, input, textarea {
 
 /* NAVIGATION */
 
+.nav {
+  vertical-align: middle;
+}
+
+.hidden-mob {
+  display: none;
+}
+
+.hidden-desk {
+  padding: 20px;
+  max-width: 100px;
+}
+
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 100px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -48,14 +97,15 @@ p, table, ul, ol, dl, input, textarea {
   background-color: #6f9ec3;
   overflow-x: hidden;
   padding-top: 20px;
+  vertical-align: middle;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
   color: #fff;
   display: block;
+  vertical-align: middle;
 }
 
 .sidenav a:hover {
@@ -63,7 +113,7 @@ p, table, ul, ol, dl, input, textarea {
 }
 
 main {
-  margin-left: 170px; /* Same as the width of the sidenav */
+  margin-left: 100px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
@@ -77,7 +127,106 @@ main {
 }
 
 .con-top {
-  margin-top: 375px;
+  margin-top: 325px;
+}
+
+/* CREATE NEW */
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  vertical-align: center;
+}
+
+input[type=date], select, textarea {
+  width: 90%;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #8bc53f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+  vertical-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: #545b98;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.add-photo {
+  padding: 75px;
+}
+
+.marg-top {
+  margin-top: 75px;
+  margin-bottom: 0;
+}
+
+.temp-img {
+  box-shadow: 10px 10px 5px #e5e5e5;
+  margin-bottom: 15px;
+}
+
+.skinny {
+  max-width: 80%;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ONGOING */
+
+.list-img {
+  border-radius: 100%;
+  max-width: 50%;
+  text-align: right;
+  padding: 10px;
+}
+
+.marg-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list-box {
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn-fin {
+  background-color: #8bc53f;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 160px;
+  text-align: right;
+  font-size: initial;
+}
+
+.btn-fin:hover {
+  background-color: #545b98;
 }
 
 /* CREATE NEW */
@@ -195,13 +344,54 @@ table {
   border-radius: 8px;
 }
 
-@media screen and (max-height: 450px) {
+@media only screen and (min-width: 608px) {
 
   .sidenav {
     padding-top: 15px;
   }
+
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6f9ec3;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #b0ecee;
+  }
+
+  main {
+    margin-left: 170px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
   .sidenav a {
     font-size: 18px;
+  }
+
+  .hidden-mob {
+    display: block;
+  }
+
+  .hidden-desk {
+    display: none;
+  }
+
+  .label {
+    font-size: initial;
   }
 
 }
