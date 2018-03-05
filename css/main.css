@@ -330,6 +330,9 @@ table {
   color: #38448e;
   border-radius: 8px;
 }
+.left {
+  text-align: left;
+}
 
 .green {
   background-color: #d1e0bf;
