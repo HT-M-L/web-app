@@ -647,3 +647,17 @@ button {
   color: black;
   background-color: white;
 }
+
+.client-list {
+  right: -22px;
+  top: -550px;
+  position: relative;
+}
+
+dt {
+  color: #6f9ec3;
+}
+
+dd {
+  color: grey;
+}
