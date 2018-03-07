@@ -321,7 +321,7 @@ table {
   background-color: #9dcae0;
   color: white;
   border-radius: 8px;
-  padding: .25em;
+  padding: .15em;
 }
 
 .purple {
@@ -649,4 +649,18 @@ body {
 button {
   color: black;
   background-color: white;
+}
+
+.client-list {
+  right: -22px;
+  top: -550px;
+  position: relative;
+}
+
+dt {
+  color: #6f9ec3;
+}
+
+dd {
+  color: grey;
 }
