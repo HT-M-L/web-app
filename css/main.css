@@ -321,7 +321,7 @@ table {
   background-color: #9dcae0;
   color: white;
   border-radius: 8px;
-  padding: .25em;
+  padding: .15em;
 }
 
 .purple {
@@ -652,6 +652,7 @@ button {
 }
 
 .client-list {
+
   position: relative;
   top: -550px;
   left: 27px;
@@ -664,7 +665,6 @@ dt {
 dd {
   color: grey;
 }
-
 .upcoming-line {
   border-color: #E8E8E8;
   position: relative;
@@ -672,3 +672,4 @@ dd {
   width: 45%;
   left: -11px;
 }
+
