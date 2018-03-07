@@ -652,9 +652,10 @@ button {
 }
 
 .client-list {
-  right: -22px;
-  top: -550px;
+
   position: relative;
+  top: -550px;
+  left: 27px;
 }
 
 dt {
@@ -664,3 +665,11 @@ dt {
 dd {
   color: grey;
 }
+.upcoming-line {
+  border-color: #E8E8E8;
+  position: relative;
+  top: -13px;
+  width: 45%;
+  left: -11px;
+}
+
