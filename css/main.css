@@ -650,3 +650,25 @@ button {
   color: black;
   background-color: white;
 }
+
+.client-list {
+  position: relative;
+  top: -550px;
+  left: 27px;
+}
+
+dt {
+  color: #6f9ec3;
+}
+
+dd {
+  color: grey;
+}
+
+.upcoming-line {
+  border-color: #E8E8E8;
+  position: relative;
+  top: -13px;
+  width: 45%;
+  left: -11px;
+}
