@@ -50,8 +50,6 @@ a {
   text-align: center;
 }
 
-master
-
 p {
   max-width: 30em;
 }
@@ -398,7 +396,7 @@ table {
 }
 
 body {
-  margin: 100px auto;
+  margin: 25px auto;
   background-color: white;
   font-family: 'Kanit', sans-serif;
 }
